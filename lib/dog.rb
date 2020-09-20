@@ -1,6 +1,9 @@
 # Your code goes here!
 class Dog
 
+  attr_accessor :
+  
+=begin
   def name=(name)
     @dog_name = name
   end
@@ -8,7 +11,8 @@ class Dog
   def name
     @dog_name
   end
-  
+=end
+
   def bark
     puts "woof!"
   end
